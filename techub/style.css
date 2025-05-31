@@ -8,6 +8,7 @@ Text Domain: techub
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
+
 .rc__post-thumb img {
 	width: 72px;
 	height: 72px;
@@ -20,18 +21,5 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	margin-left: 50px;
 }
 .post.post-post.current-item {
-	color: #fff;
-}
-.portfolio-filter-button {
-	margin-bottom: 40px;
-}
-.portfolio-filter-button.d-flex button {
-	margin-right: 10px;
-	background: #000;
-	color: #fff;
-	padding: 6px 20px;
-}
-.portfolio-filter-button.d-flex button.active {
-	background: #f00;
 	color: #fff;
 }

@@ -35,20 +35,6 @@ function techub_header_info_section(){
         ]
     );
 
-    new \Kirki\Field\Select(
-        [
-            'settings'    => 'header_style_kirki',
-            'label'       => esc_html__( 'Select Header Style', 'kirki' ),
-            'section'     => 'techub_header_section',
-            'default'     => 'header_kirki_1',
-            'placeholder' => esc_html__( 'Choose an option', 'kirki' ),
-            'choices'     => [
-                'header_kirki_1' => esc_html__( 'Header 01', 'kirki' ),
-                'header_kirki_2' => esc_html__( 'Header 02', 'kirki' ),
-            ],
-        ]
-    );
-
     new \Kirki\Field\Checkbox_Switch(
         [
             'settings'    => 'header_right_side_switch',

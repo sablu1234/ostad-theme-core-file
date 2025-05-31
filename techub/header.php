@@ -10,10 +10,13 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
-<?php do_action('techub_header_before');
 
-// do_action('my_action');
+<?php echo get_template_part('template-parts/header/header-1'); ?>
 
-// echo apply_filters('my_filter','this is text','hello');
+
+
+<?php 
+
+do_action('techub_header_before');

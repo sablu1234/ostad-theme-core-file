@@ -4,7 +4,7 @@
 
 <section class="tp-footer-area tp-footer-4-area  p-relative">
 <?php if ( !empty($footer_bg_img) ) : ?>
-    <div class="tp-footer-4-bg-shape d-none">
+    <div class="tp-footer-4-bg-shape">
         <img src="<?php echo esc_url($footer_bg_img); ?>" alt="">
     </div>
     <?php endif; ?>
